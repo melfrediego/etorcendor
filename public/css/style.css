@@ -1,0 +1,53 @@
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active {
+    transition: background-color .3s;
+    border-left: 2px solid #f00;
+    }
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-text, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-text {
+    color: #ffffff;
+}
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__heading .m-menu__link-icon, .m-aside-menu.m-aside-menu--skin-dark .m-menu__nav > .m-menu__item.m-menu__item--active > .m-menu__link .m-menu__link-icon {
+    color: #ffffff;
+}
+
+
+/* Modal Admin */
+.container-modal{
+  margin: 40px auto;
+}
+.modal .modal-content .modal-header{
+    padding: 15px;
+}
+.modal .modal-content .modal-footer{
+    padding: 15px;
+}
+
+.modal-header .close {
+    padding: 25px 1rem 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+
+/* Tema Metronic 5 */
+
+/* Tables */
+.table td, .table th {
+    color: #222222;
+}
+.table thead tr{
+    border-bottom: 2px solid #E4E6EB;
+}
+
+/* Pagination */
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Form  */
+.m-form .m-form__heading .m-form__heading-title{
+    color: #222222;
+}
+
+.m-form .col-form-label, .m-form .form-control-label, .m-form .m-form__group>label{
+    color: #222222;
+}

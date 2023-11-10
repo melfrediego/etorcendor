@@ -1,0 +1,112 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Illuminate\Database\Eloquent\Model;
+
+class CidadesRioDeJaneiroSeeder extends Seeder {
+
+    /**
+    * Run the database seeds.
+    *
+    * @return void
+    */
+    public function run()
+    {
+        DB::table('cidades')->insert([
+        	['nome' => 'Angra dos Reis', 'estado_id' => 19],
+            ['nome' => 'Aperibé', 'estado_id' => 19],
+            ['nome' => 'Araruama', 'estado_id' => 19],
+            ['nome' => 'Areal', 'estado_id' => 19],
+            ['nome' => 'Armação dos Búzios', 'estado_id' => 19],
+            ['nome' => 'Arraial do Cabo', 'estado_id' => 19],
+            ['nome' => 'Barra do Piraí', 'estado_id' => 19],
+            ['nome' => 'Barra Mansa', 'estado_id' => 19],
+            ['nome' => 'Belford Roxo', 'estado_id' => 19],
+            ['nome' => 'Bom Jardim', 'estado_id' => 19],
+            ['nome' => 'Bom Jesus do Itabapoana', 'estado_id' => 19],
+            ['nome' => 'Cabo Frio', 'estado_id' => 19],
+            ['nome' => 'Cachoeiras de Macacu', 'estado_id' => 19],
+            ['nome' => 'Cambuci', 'estado_id' => 19],
+            ['nome' => 'Campos dos Goytacazes', 'estado_id' => 19],
+            ['nome' => 'Cantagalo', 'estado_id' => 19],
+            ['nome' => 'Carapebus', 'estado_id' => 19],
+            ['nome' => 'Cardoso Moreira', 'estado_id' => 19],
+            ['nome' => 'Carmo', 'estado_id' => 19],
+            ['nome' => 'Casimiro de Abreu', 'estado_id' => 19],
+            ['nome' => 'Comendador Levy Gasparian', 'estado_id' => 19],
+            ['nome' => 'Conceição de Macabu', 'estado_id' => 19],
+            ['nome' => 'Cordeiro', 'estado_id' => 19],
+            ['nome' => 'Duas Barras', 'estado_id' => 19],
+            ['nome' => 'Duque de Caxias', 'estado_id' => 19],
+            ['nome' => 'Engenheiro Paulo de Frontin', 'estado_id' => 19],
+            ['nome' => 'Guapimirim', 'estado_id' => 19],
+            ['nome' => 'Iguaba Grande', 'estado_id' => 19],
+            ['nome' => 'Itaboraí', 'estado_id' => 19],
+            ['nome' => 'Itaguaí', 'estado_id' => 19],
+            ['nome' => 'Italva', 'estado_id' => 19],
+            ['nome' => 'Itaocara', 'estado_id' => 19],
+            ['nome' => 'Itaperuna', 'estado_id' => 19],
+            ['nome' => 'Itatiaia', 'estado_id' => 19],
+            ['nome' => 'Japeri', 'estado_id' => 19],
+            ['nome' => 'Laje do Muriaé', 'estado_id' => 19],
+            ['nome' => 'Macaé', 'estado_id' => 19],
+            ['nome' => 'Macuco', 'estado_id' => 19],
+            ['nome' => 'Magé', 'estado_id' => 19],
+            ['nome' => 'Mangaratiba', 'estado_id' => 19],
+            ['nome' => 'Maricá', 'estado_id' => 19],
+            ['nome' => 'Mendes', 'estado_id' => 19],
+            ['nome' => 'Mesquita', 'estado_id' => 19],
+            ['nome' => 'Miguel Pereira', 'estado_id' => 19],
+            ['nome' => 'Miracema', 'estado_id' => 19],
+            ['nome' => 'Natividade', 'estado_id' => 19],
+            ['nome' => 'Nilópolis', 'estado_id' => 19],
+            ['nome' => 'Niterói', 'estado_id' => 19],
+            ['nome' => 'Nova Friburgo', 'estado_id' => 19],
+            ['nome' => 'Nova Iguaçu', 'estado_id' => 19],
+            ['nome' => 'Paracambi', 'estado_id' => 19],
+            ['nome' => 'Paraíba do Sul', 'estado_id' => 19],
+            ['nome' => 'Parati', 'estado_id' => 19],
+            ['nome' => 'Paty do Alferes', 'estado_id' => 19],
+            ['nome' => 'Petrópolis', 'estado_id' => 19],
+            ['nome' => 'Pinheiral', 'estado_id' => 19],
+            ['nome' => 'Piraí', 'estado_id' => 19],
+            ['nome' => 'Porciúncula', 'estado_id' => 19],
+            ['nome' => 'Porto Real', 'estado_id' => 19],
+            ['nome' => 'Quatis', 'estado_id' => 19],
+            ['nome' => 'Queimados', 'estado_id' => 19],
+            ['nome' => 'Quissamã', 'estado_id' => 19],
+            ['nome' => 'Resende', 'estado_id' => 19],
+            ['nome' => 'Rio Bonito', 'estado_id' => 19],
+            ['nome' => 'Rio Claro', 'estado_id' => 19],
+            ['nome' => 'Rio das Flores', 'estado_id' => 19],
+            ['nome' => 'Rio das Ostras', 'estado_id' => 19],
+            ['nome' => 'Rio de Janeiro', 'estado_id' => 19],
+            ['nome' => 'Santa Maria Madalena', 'estado_id' => 19],
+            ['nome' => 'Santo Antônio de Pádua', 'estado_id' => 19],
+            ['nome' => 'São Fidélis', 'estado_id' => 19],
+            ['nome' => 'São Francisco de Itabapoana', 'estado_id' => 19],
+            ['nome' => 'São Gonçalo', 'estado_id' => 19],
+            ['nome' => 'São João da Barra', 'estado_id' => 19],
+            ['nome' => 'São João de Meriti', 'estado_id' => 19],
+            ['nome' => 'São José de Ubá', 'estado_id' => 19],
+            ['nome' => 'São José do Vale do Rio Pret', 'estado_id' => 19],
+            ['nome' => 'São Pedro da Aldeia', 'estado_id' => 19],
+            ['nome' => 'São Sebastião do Alto', 'estado_id' => 19],
+            ['nome' => 'Sapucaia', 'estado_id' => 19],
+            ['nome' => 'Saquarema', 'estado_id' => 19],
+            ['nome' => 'Seropédica', 'estado_id' => 19],
+            ['nome' => 'Silva Jardim', 'estado_id' => 19],
+            ['nome' => 'Sumidouro', 'estado_id' => 19],
+            ['nome' => 'Tanguá', 'estado_id' => 19],
+            ['nome' => 'Teresópolis', 'estado_id' => 19],
+            ['nome' => 'Trajano de Morais', 'estado_id' => 19],
+            ['nome' => 'Três Rios', 'estado_id' => 19],
+            ['nome' => 'Valença', 'estado_id' => 19],
+            ['nome' => 'Varre-Sai', 'estado_id' => 19],
+            ['nome' => 'Vassouras', 'estado_id' => 19],
+            ['nome' => 'Volta Redonda', 'estado_id' => 19]
+        ]);
+
+        $this->command->info('Cidades do Rio de Janeiro importadas com sucesso!');
+    }
+}
